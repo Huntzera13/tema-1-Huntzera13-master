@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.*;
 
 public class User {
-//
+
     public static void verification (String[] args) {
         if (args.length == 1)
             System.out.println("{ 'status' : 'error', 'message' : 'Please provide username'}");
